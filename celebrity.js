@@ -1,4 +1,4 @@
-// script.js
+
 document.addEventListener('DOMContentLoaded', () => {
     const searchBar = document.getElementById('search-bar');
     const accordionContainer = document.getElementById('accordion-container');
