@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Celebrity Manager</title>
+    <link rel="stylesheet" href="celebrity.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Factwise Assessment Visual Reference</h1>
+        <input type="text" id="search-bar" placeholder="Search user">
+        <div id="accordion-container"></div>
+    </div>
+
+    <!-- Modal for delete confirmation -->
+    <div id="delete-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>Are you sure you want to delete?</p>
+            <button id="cancel-btn">Cancel</button>
+            <button id="delete-btn">Delete</button>
+        </div>
+    </div>
+
+    <script src="celebrity.js"></script>
+</body>
+</html>
+
